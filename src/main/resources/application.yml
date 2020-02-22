@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    - default
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    url: jdbc:mysql://remotemysql.com:3306/LYxSRnfmc3
+    username: LYxSRnfmc3
+    password: qmbJIBbBKL
